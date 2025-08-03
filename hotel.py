@@ -14,7 +14,7 @@ def calculate_cost(room_type, days):
         "with_kitchen": 4500,
         "exclusive": 6000,
         "economy": 1500,
-        "luxury": 8000,
+        "luxury": 9500,  # Feature-Z: changed price to cause merge conflict
         "budget": 1000,
         "premium_suite": 10000
     }

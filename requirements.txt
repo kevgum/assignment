@@ -1,0 +1,10 @@
+pytest
+pytest-html
+pytest-cov
+pytest-xdist
+setuptools
+wheel
+pyinstaller
+black
+flake8
+mypy

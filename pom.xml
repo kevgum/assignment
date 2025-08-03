@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hotel</groupId>
+    <artifactId>hotel-booking-system</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Hotel Booking System</name>
+    <description>A Python-based hotel booking system built with Maven</description>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <python.executable>python</python.executable>
+        <pip.executable>pip</pip.executable>
+    </properties>
+
+    <build>
+        <plugins>
+            <!-- Plugin to install Python dependencies and run Python commands -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <!-- Install Python dependencies -->
+                    <execution>
+                        <id>install-dependencies</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>${pip.executable}</executable>
+                            <commandlineArgs>install -r requirements.txt</commandlineArgs>
+                        </configuration>
+                    </execution>
+                    
+                    <!-- Compile/Validate Python code -->
+                    <execution>
+                        <id>compile-python</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>${python.executable}</executable>
+                            <commandlineArgs>-m py_compile hotel.py</commandlineArgs>
+                        </configuration>
+                    </execution>
+                    
+                    <!-- Run Python tests -->
+                    <execution>
+                        <id>test-python</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>${python.executable}</executable>
+                            <commandlineArgs>-m pytest tests/ -v --tb=short --junitxml=target/surefire-reports/pytest-results.xml</commandlineArgs>
+                        </configuration>
+                    </execution>
+                    
+                    <!-- Create distribution package -->
+                    <execution>
+                        <id>package-python</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>${python.executable}</executable>
+                            <commandlineArgs>setup.py sdist --dist-dir target/dist</commandlineArgs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Maven Surefire Plugin for test reporting -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M9</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+
+            <!-- Maven Clean Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>__pycache__</directory>
+                        </fileset>
+                        <fileset>
+                            <directory>tests/__pycache__</directory>
+                        </fileset>
+                        <fileset>
+                            <directory>.pytest_cache</directory>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+
+            <!-- Maven Assembly Plugin for creating deployable packages -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <descriptors>
+                        <descriptor>src/assembly/python-dist.xml</descriptor>
+                    </descriptors>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <!-- Windows profile -->
+        <profile>
+            <id>windows</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                </os>
+            </activation>
+            <properties>
+                <python.executable>python</python.executable>
+                <pip.executable>pip</pip.executable>
+            </properties>
+        </profile>
+
+        <!-- Unix/Linux profile -->
+        <profile>
+            <id>unix</id>
+            <activation>
+                <os>
+                    <family>unix</family>
+                </os>
+            </activation>
+            <properties>
+                <python.executable>python3</python.executable>
+                <pip.executable>pip3</pip.executable>
+            </properties>
+        </profile>
+    </profiles>
+</project>

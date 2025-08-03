@@ -1,0 +1,43 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.0 
+                              http://maven.apache.org/xsd/assembly-2.1.0.xsd">
+    <id>python-dist</id>
+    <formats>
+        <format>zip</format>
+        <format>tar.gz</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    
+    <fileSets>
+        <!-- Include Python source files -->
+        <fileSet>
+            <directory>.</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>hotel.py</include>
+                <include>requirements.txt</include>
+                <include>README.md</include>
+                <include>Readme.txt</include>
+            </includes>
+        </fileSet>
+        
+        <!-- Include test files -->
+        <fileSet>
+            <directory>tests</directory>
+            <outputDirectory>tests/</outputDirectory>
+            <includes>
+                <include>**/*.py</include>
+            </includes>
+        </fileSet>
+        
+        <!-- Include Maven files -->
+        <fileSet>
+            <directory>.</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

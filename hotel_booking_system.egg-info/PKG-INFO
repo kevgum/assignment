@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: hotel-booking-system
+Version: 1.0.0
+Summary: A Python hotel booking system with Maven integration
+Home-page: https://github.com/kevgum/assignment2
+Author: Hotel Booking Team
+Author-email: team@hotelbooking.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+Requires-Dist: pytest
+Requires-Dist: pytest-html
+Requires-Dist: pytest-cov
+Requires-Dist: pytest-xdist
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: pyinstaller
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: mypy
+
+Hotel Booking System - Maven Build
+=====================================
+
+Requirements:
+- Python 3.7+
+- Internet connection (for Maven auto-download)
+
+Maven Plugins Used:
+==================
+- exec-maven-plugin (3.1.0) - Executes Python commands
+- maven-surefire-plugin (3.1.2) - Test reporting
+- maven-clean-plugin (3.2.0) - Cleans build artifacts
+- maven-assembly-plugin (3.4.2) - Creates packages
+
+How to Build and Test:
+=====================
+
+1. Clean and compile:
+   .\mvnw.cmd clean compile
+
+2. Run tests:
+   .\mvnw.cmd test
+
+3. Build everything:
+   .\mvnw.cmd clean compile test
+
+Notes:
+- First run downloads Maven automatically
+- Test results in target/surefire-reports/
+- 5 tests total: 3 pass, 2 fail (by design)

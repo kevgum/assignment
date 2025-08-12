@@ -129,8 +129,8 @@ pipeline {
             }
             post {
                 always {
-                    // Publish test results
-                    publishTestResults testResultsPattern: 'target/surefire-reports/*.xml'
+                    // Publish test results using junit step
+                    junit '**/target/surefire-reports/*.xml'
                     
                     // Archive test reports if they exist
                     script {

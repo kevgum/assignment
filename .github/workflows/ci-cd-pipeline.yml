@@ -33,7 +33,7 @@ jobs:
         zip -r hotel_app.zip hotel.py tests
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: hotel-app
         path: hotel_app.zip

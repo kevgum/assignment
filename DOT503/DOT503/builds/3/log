@@ -1,0 +1,475 @@
+Started by user [8mha:////4C+GROZPFnddYEkzXhHLgmPPBUBRhiAV5CGdTV/1jdRFAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL9/PLUvKrkfKCtAI8niu3FAAAA[0mkevin
+Obtained Jenkinsfile from git https://github.com/kevgum/assignment.git
+[8mha:////4N1MzJ0VGsp1rHtTG3wxhwccWoVRDfy+oeXnhgAWtk0mAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4MhXHuCR2vddv3KrMnAXiS6WQTJE9aEOn6fyTcwleFonAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KuA/BgzACKt6hjxpKf55GY7+SzlQ2cPNUlemtb8Ql2aAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/DOT503
+[8mha:////4AhH+ZxTvPM7/IDU9b1Xjg1/xrAERDPcI/ErS640hn3lAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MFWlDj2T80PYT+OoZ6C8tGKcc06/DizGVMZV4r3OF/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4HtrqOfWzA5RXvsAGZQ1RMXX2G9bG4eXhd+x56OnAzvFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4BAUOGv4GE7bY/k6EoOODjnCs/v/wlsH5RGVpSCvw1cSAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/DOT503/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kevgum/assignment.git # timeout=10
+Fetching upstream changes from https://github.com/kevgum/assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.50.1'
+ > git fetch --tags --force --progress -- https://github.com/kevgum/assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ffed72f364bc20450e8302da0f97b339bab10ea0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ffed72f364bc20450e8302da0f97b339bab10ea0 # timeout=10
+Commit message: "Added Jenkins configuration and build artifacts"
+ > git rev-list --no-walk ffed72f364bc20450e8302da0f97b339bab10ea0 # timeout=10
+[8mha:////4G42ibOacs4Pl1csObD6uaw3Za+rM8rGxWeEY2LIQ261AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4HZH1Dmc9WlsH4/hJs+Txrae+P5zPP7xmiZ0AiqqZ8VVAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OCUYBpKHdVedb/j/hyBVwqs0vo2/QXrBcCVyLuURM8JAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4EORoyWXQNyaiWYTnLio6lft3bBV1zXBAGuC0OeV5dASAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4E2VglqxOrYt06JyNuy9Q56YwNSv9UeXtqSfJpCp5m6KAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4JUT0VXBnMTphCyl5JqvBPRmx0VkyclN2as6UBKST0WHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4Jg9V6zhO45AIiLZgsjeZSTtYgYoXD+57Ul7UAmgv8P+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4IxbN27mvLFraqgQFzLZirMzqrYZaADS/Ii/7cBvWJJKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Checkout)
+[8mha:////4HId9C/dPvYIPnu7eA8YhPhKWUtvqw86ke+1G/QucWAFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] echo
+Checking out source code...
+[8mha:////4Kc81/wcS4vP1UySzio+b11MJR/8iU03wVLne0FQ+2J1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/DOT503/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kevgum/assignment.git # timeout=10
+Fetching upstream changes from https://github.com/kevgum/assignment.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.50.1'
+ > git fetch --tags --force --progress -- https://github.com/kevgum/assignment.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ffed72f364bc20450e8302da0f97b339bab10ea0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ffed72f364bc20450e8302da0f97b339bab10ea0 # timeout=10
+Commit message: "Added Jenkins configuration and build artifacts"
+[8mha:////4GWW906mYPNeaL4ir2gx0+oOClTrRDhReV751gV0SXGXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
+[8mha:////4BlRGVnpPt5x0zDcQmOA/T/wdEoyCqDvMgCLN+mQOq1dAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4JbFKNYkaS2Z6M4ESPQSWYPf9E+o6Bi5Li+k55sBbAF5AAAApx+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoiUnxF1Yo26cILQhJA0eq8kKenEibgadyBQiQkPlm3J+p4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNzgO5r/CAAAA[0m[Pipeline] stage
+[8mha:////4K/K9VEuw+X6H5lGy6s0mUye0EYUX6qT5d7820nAp4jrAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Setup Environment)
+[8mha:////4HiRNmkmfrYWpiBlwH65RwS3In+mxgSFUl2L3F45TAcfAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] echo
+Setting up Python environment...
+[8mha:////4C7pKUIZeYM78SbDaf6bdfDGgtZRn5ZBQUlJ0eejdAQ1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfL9brbD/Cw+pxeAFsIAAAA=[0m[Pipeline] script
+[8mha:////4N0FI+/sNxXe6tFWrMmqhQnLmgZhnV98WbFSxUX4DoZWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4KpUFNc67fTFjyjiFZZqzfL2pAccj7oEX6HNQTku830YAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] isUnix
+[8mha:////4JFQE2pODQ9/HjCi4kaOoAB/vvUbNFzvrqnpZYUiX9etAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAG8UfaPvgAAAA==[0m[Pipeline] sh
++ python3 --version
+Python 3.13.5
++ command -v pip3
++ pip3 --version
+pip 24.3.1 from /usr/lib/python3.13/site-packages/pip (python 3.13)
++ pip3 install --user -r requirements.txt
+Requirement already satisfied: pytest in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (8.4.1)
+Requirement already satisfied: pytest-html in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (4.1.1)
+Requirement already satisfied: pytest-cov in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (6.2.1)
+Requirement already satisfied: pytest-xdist in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.8.0)
+Requirement already satisfied: setuptools in /usr/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (74.1.3)
+Requirement already satisfied: wheel in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (0.45.1)
+Requirement already satisfied: pyinstaller in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (6.15.0)
+Requirement already satisfied: black in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (25.1.0)
+Requirement already satisfied: flake8 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (7.3.0)
+Requirement already satisfied: mypy in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 10)) (1.17.1)
+Requirement already satisfied: iniconfig>=1 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (2.1.0)
+Requirement already satisfied: packaging>=20 in /usr/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (24.2)
+Requirement already satisfied: pluggy<2,>=1.5 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (2.19.2)
+Requirement already satisfied: jinja2>=3.0.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-html->-r requirements.txt (line 2)) (3.1.6)
+Requirement already satisfied: pytest-metadata>=2.0.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-html->-r requirements.txt (line 2)) (3.1.1)
+Requirement already satisfied: coverage>=7.5 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from coverage[toml]>=7.5->pytest-cov->-r requirements.txt (line 3)) (7.10.3)
+Requirement already satisfied: execnet>=2.1 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-xdist->-r requirements.txt (line 4)) (2.1.1)
+Requirement already satisfied: altgraph in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pyinstaller->-r requirements.txt (line 7)) (0.17.4)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2025.8 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pyinstaller->-r requirements.txt (line 7)) (2025.8)
+Requirement already satisfied: click>=8.0.0 in /usr/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (8.1.7)
+Requirement already satisfied: mypy-extensions>=0.4.3 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (1.1.0)
+Requirement already satisfied: pathspec>=0.9.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (0.12.1)
+Requirement already satisfied: platformdirs>=2 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (4.3.8)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.15.0,>=2.14.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (2.14.0)
+Requirement already satisfied: pyflakes<3.5.0,>=3.4.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (3.4.0)
+Requirement already satisfied: typing_extensions>=4.6.0 in /usr/lib/python3.13/site-packages (from mypy->-r requirements.txt (line 10)) (4.12.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/lib64/python3.13/site-packages (from jinja2>=3.0.0->pytest-html->-r requirements.txt (line 2)) (3.0.2)
+[8mha:////4HFh9et/YFjGqEeF6K/ILX7DApkwFZxG42Vdi6ahpf38AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1GGkcWvgAAAA==[0m[Pipeline] }
+[8mha:////4DvvioxGYkz8wVs2M2K5NRFEXxZIUIa2ri9xzaiqqtn4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwPXV5vgAAAA==[0m[Pipeline] // script
+[8mha:////4Kg506bikn20ZnkQ+QkYoM1/KPYzp1nPqKoKBQg66NmQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BrmPJ1y+AAAA[0m[Pipeline] }
+[8mha:////4FlVKUjMfSXhhxXkacdfCGUGF7UbzFM6q0VqLB856H3/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISQYmo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B1PlWKq+AAAA[0m[Pipeline] // stage
+[8mha:////4LkC9Oz7iGQy76oHObb/8i9dnhz+0FC1yd27xKO7tAF1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUVUfExBp14QQhDSFp9H+bpLQTJ+Jq3IFAJSY8WLYl6z1fUMYARwqGO429xagsH/xkcuIzhf7qaeaOLlwRRvKat3puqdOntbaUNKwqGGwEbDUqT9GiSbATTt5l5SWa6pxC3g4CmO1GeEAhMjnJkL5lCbC/TV0k/HH+AmAZErC6ydbUn2f5BinWzdLCAAAA[0m[Pipeline] stage
+[8mha:////4GV9iFFqr3jJyYomsz8w8Iklk8BX2UqDGovDqAndvPcpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Compile)
+[8mha:////4EZu36S2P4yF+zcJqxdbjSnYca9/hVzABzBB3d0pG+VhAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] echo
+Compiling Python code...
+[8mha:////4C9R5qX46d70sUyvEGYF5UAJoVTk5codsMebqxxjp177AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAcUGta/CAAAA[0m[Pipeline] script
+[8mha:////4CFbqMSrqAdAuOSyiZ4FaclREKOxm1mEzqdPkRxo8Pj6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] {
+[8mha:////4GKpoYneBdnas4iCamCQ/gOAsw4tIj0ohSW+BKhP+xZXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] isUnix
+[8mha:////4CN58pkg+uN324SvtCRHOE3Is/jroZKPKdJEtEKS9qYuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHgAfL9vgAAAA==[0m[Pipeline] sh
++ command -v mvn
++ echo 'Using Maven...'
+Using Maven...
++ mvn clean compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.hotel:hotel-booking-system >-------------------
+[INFO] Building Hotel Booking System 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hotel-booking-system ---
+[INFO] Deleting /var/lib/jenkins/workspace/DOT503/target
+[INFO] Deleting /var/lib/jenkins/workspace/DOT503/__pycache__ (includes = [], excludes = [])
+[INFO] Deleting /var/lib/jenkins/workspace/DOT503/tests/__pycache__ (includes = [], excludes = [])
+[INFO] Deleting /var/lib/jenkins/workspace/DOT503/.pytest_cache (includes = [], excludes = [])
+[INFO] 
+[INFO] --- exec:3.1.0:exec (install-dependencies) @ hotel-booking-system ---
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pytest in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (8.4.1)
+Requirement already satisfied: pytest-html in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (4.1.1)
+Requirement already satisfied: pytest-cov in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (6.2.1)
+Requirement already satisfied: pytest-xdist in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.8.0)
+Requirement already satisfied: setuptools in /usr/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (74.1.3)
+Requirement already satisfied: wheel in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (0.45.1)
+Requirement already satisfied: pyinstaller in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (6.15.0)
+Requirement already satisfied: black in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (25.1.0)
+Requirement already satisfied: flake8 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (7.3.0)
+Requirement already satisfied: mypy in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 10)) (1.17.1)
+Requirement already satisfied: iniconfig>=1 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (2.1.0)
+Requirement already satisfied: packaging>=20 in /usr/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (24.2)
+Requirement already satisfied: pluggy<2,>=1.5 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (2.19.2)
+Requirement already satisfied: jinja2>=3.0.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-html->-r requirements.txt (line 2)) (3.1.6)
+Requirement already satisfied: pytest-metadata>=2.0.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-html->-r requirements.txt (line 2)) (3.1.1)
+Requirement already satisfied: coverage>=7.5 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from coverage[toml]>=7.5->pytest-cov->-r requirements.txt (line 3)) (7.10.3)
+Requirement already satisfied: execnet>=2.1 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-xdist->-r requirements.txt (line 4)) (2.1.1)
+Requirement already satisfied: altgraph in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pyinstaller->-r requirements.txt (line 7)) (0.17.4)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2025.8 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pyinstaller->-r requirements.txt (line 7)) (2025.8)
+Requirement already satisfied: click>=8.0.0 in /usr/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (8.1.7)
+Requirement already satisfied: mypy-extensions>=0.4.3 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (1.1.0)
+Requirement already satisfied: pathspec>=0.9.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (0.12.1)
+Requirement already satisfied: platformdirs>=2 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (4.3.8)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.15.0,>=2.14.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (2.14.0)
+Requirement already satisfied: pyflakes<3.5.0,>=3.4.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (3.4.0)
+Requirement already satisfied: typing_extensions>=4.6.0 in /usr/lib/python3.13/site-packages (from mypy->-r requirements.txt (line 10)) (4.12.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/lib64/python3.13/site-packages (from jinja2>=3.0.0->pytest-html->-r requirements.txt (line 2)) (3.0.2)
+[INFO] 
+[INFO] --- exec:3.1.0:exec (compile-python) @ hotel-booking-system ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.895 s
+[INFO] Finished at: 2025-08-12T17:47:25+03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4HTtn9oHcjB2eVQ9ETSlaWSvBECnjrEcH3/wGriyxcARAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3wonovvgAAAA==[0m[Pipeline] }
+[8mha:////4MV2vSgn90d1gCNRaxn3BscBEdKWKjopNbZhtnzWSVSrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8NBIZO+AAAA[0m[Pipeline] // script
+[8mha:////4Nownu1yyvZ/SNIOJjasp7MnYPgVAermWYQxRfNlbAELAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPrCL6pi+AAAA[0m[Pipeline] }
+[8mha:////4LvxIFkxc1dd1u3idFr8hf2ExJoo/JNljIn0suypUFJZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP68Jv8q+AAAA[0m[Pipeline] // stage
+[8mha:////4IEcyjb80S3TErxyHJ0CGEbQKvDIpjIeC/W490UBLsMEAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycohU/GyoE2vUhROEJoSk0XslSUknTsTVuAOBSkx4sGxL1vd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2z77edZvQEJmv6RwgAAAA==[0m[Pipeline] stage
+[8mha:////4MlGzOhb/p4dvmWZbd8zj6LJd7NsN01VREp/Ev+AgOErAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Test)
+[8mha:////4Ch84oaSJC7wbEvw3x30KUDbmVYiAkzs/mLDv1Yk7jSHAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] echo
+Running unit tests...
+[8mha:////4G4kXCX7vEdMRe6lMNdj9lGH+IdsBDgsuyhiRdAutulxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAaHdWBTCAAAA[0m[Pipeline] script
+[8mha:////4Ao96RF2tz3RKL6BVQF4QQmhVF4QsLfrCqpgh/EtvMrLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] {
+[8mha:////4DfwfwZJnh5vra6Tg/HfKSNKMLPj63J3kMdFkFL+ZzM2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN+EEkMO+AAAA[0m[Pipeline] isUnix
+[8mha:////4PG81omeWT5+GZTp+Xbg/qvwoZO6vehMJXIWSs9L5gzFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEuGAhEvgAAAA==[0m[Pipeline] sh
++ command -v mvn
++ echo 'Using Maven for testing...'
+Using Maven for testing...
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.hotel:hotel-booking-system >-------------------
+[INFO] Building Hotel Booking System 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.1.0:exec (install-dependencies) @ hotel-booking-system ---
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pytest in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (8.4.1)
+Requirement already satisfied: pytest-html in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (4.1.1)
+Requirement already satisfied: pytest-cov in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (6.2.1)
+Requirement already satisfied: pytest-xdist in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.8.0)
+Requirement already satisfied: setuptools in /usr/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (74.1.3)
+Requirement already satisfied: wheel in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (0.45.1)
+Requirement already satisfied: pyinstaller in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (6.15.0)
+Requirement already satisfied: black in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (25.1.0)
+Requirement already satisfied: flake8 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (7.3.0)
+Requirement already satisfied: mypy in /var/lib/jenkins/.local/lib/python3.13/site-packages (from -r requirements.txt (line 10)) (1.17.1)
+Requirement already satisfied: iniconfig>=1 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (2.1.0)
+Requirement already satisfied: packaging>=20 in /usr/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (24.2)
+Requirement already satisfied: pluggy<2,>=1.5 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest->-r requirements.txt (line 1)) (2.19.2)
+Requirement already satisfied: jinja2>=3.0.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-html->-r requirements.txt (line 2)) (3.1.6)
+Requirement already satisfied: pytest-metadata>=2.0.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-html->-r requirements.txt (line 2)) (3.1.1)
+Requirement already satisfied: coverage>=7.5 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from coverage[toml]>=7.5->pytest-cov->-r requirements.txt (line 3)) (7.10.3)
+Requirement already satisfied: execnet>=2.1 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pytest-xdist->-r requirements.txt (line 4)) (2.1.1)
+Requirement already satisfied: altgraph in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pyinstaller->-r requirements.txt (line 7)) (0.17.4)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2025.8 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from pyinstaller->-r requirements.txt (line 7)) (2025.8)
+Requirement already satisfied: click>=8.0.0 in /usr/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (8.1.7)
+Requirement already satisfied: mypy-extensions>=0.4.3 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (1.1.0)
+Requirement already satisfied: pathspec>=0.9.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (0.12.1)
+Requirement already satisfied: platformdirs>=2 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from black->-r requirements.txt (line 8)) (4.3.8)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.15.0,>=2.14.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (2.14.0)
+Requirement already satisfied: pyflakes<3.5.0,>=3.4.0 in /var/lib/jenkins/.local/lib/python3.13/site-packages (from flake8->-r requirements.txt (line 9)) (3.4.0)
+Requirement already satisfied: typing_extensions>=4.6.0 in /usr/lib/python3.13/site-packages (from mypy->-r requirements.txt (line 10)) (4.12.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/lib64/python3.13/site-packages (from jinja2>=3.0.0->pytest-html->-r requirements.txt (line 2)) (3.0.2)
+[INFO] 
+[INFO] --- exec:3.1.0:exec (compile-python) @ hotel-booking-system ---
+[INFO] 
+[INFO] --- exec:3.1.0:exec (test-python) @ hotel-booking-system ---
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-8.4.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.5', 'Platform': 'Linux-6.15.8-200.fc42.x86_64-x86_64-with-glibc2.41', 'Packages': {'pytest': '8.4.1', 'pluggy': '1.6.0'}, 'Plugins': {'xdist': '3.8.0', 'metadata': '3.1.1', 'cov': '6.2.1', 'html': '4.1.1'}, 'CI': 'true', 'BUILD_NUMBER': '3', 'BUILD_ID': '3', 'BUILD_URL': 'http://localhost:8080/job/DOT503/3/', 'NODE_NAME': 'built-in', 'JOB_NAME': 'DOT503', 'BUILD_TAG': 'jenkins-DOT503-3', 'EXECUTOR_NUMBER': '0', 'JENKINS_URL': 'http://localhost:8080/', 'JAVA_HOME': '/usr/lib/jvm/jre-21-openjdk', 'WORKSPACE': '/var/lib/jenkins/workspace/DOT503', 'GIT_COMMIT': 'ffed72f364bc20450e8302da0f97b339bab10ea0', 'GIT_URL': 'https://github.com/kevgum/assignment.git', 'GIT_BRANCH': 'origin/main'}
+rootdir: /var/lib/jenkins/workspace/DOT503
+configfile: pytest.ini
+plugins: xdist-3.8.0, metadata-3.1.1, cov-6.2.1, html-4.1.1
+collecting ... collected 5 items
+
+tests/test_hotel.py::TestHotelBooking::test_single_room PASSED           [ 20%]
+tests/test_hotel.py::TestHotelBooking::test_double_room PASSED           [ 40%]
+tests/test_hotel.py::TestHotelBooking::test_luxury_room PASSED           [ 60%]
+tests/test_hotel.py::TestHotelBooking::test_economy_room PASSED          [ 80%]
+tests/test_hotel.py::TestHotelBooking::test_premium_suite PASSED         [100%]
+
+=============================== warnings summary ===============================
+tests/test_hotel.py:16
+  /var/lib/jenkins/workspace/DOT503/tests/test_hotel.py:16: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+tests/test_hotel.py:21
+  /var/lib/jenkins/workspace/DOT503/tests/test_hotel.py:21: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+tests/test_hotel.py:26
+  /var/lib/jenkins/workspace/DOT503/tests/test_hotel.py:26: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+tests/test_hotel.py:31
+  /var/lib/jenkins/workspace/DOT503/tests/test_hotel.py:31: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+tests/test_hotel.py:36
+  /var/lib/jenkins/workspace/DOT503/tests/test_hotel.py:36: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /var/lib/jenkins/workspace/DOT503/target/surefire-reports/pytest-results.xml -
+======================== 5 passed, 5 warnings in 0.04s =========================
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.450 s
+[INFO] Finished at: 2025-08-12T17:47:30+03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4DHtjaP6pzn6r0nY2ZawQL5xRB5lCADIw6dzUXXwHBvtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGmiMn3vgAAAA==[0m[Pipeline] }
+[8mha:////4F2b/gLSNz/7lm2nkcZ4wnUBZxA9lU18d6Vhglm8qghNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQSpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP2CDuO++AAAA[0m[Pipeline] // script
+Post stage
+Error when executing always post condition:
+java.lang.NoSuchMethodError: No such DSL method 'publishTestResults' found among steps [archive, bat, build, catchError, checkout, deleteDir, dir, echo, emailext, emailextrecipients, envVarsForTool, error, fileExists, findBuildScans, getContext, git, input, isUnix, junit, library, libraryResource, load, mail, milestone, node, parallel, powershell, properties, publishChecks, pwd, pwsh, readFile, readTrusted, resolveScm, retry, script, sh, sleep, stage, stash, step, timeout, timestamps, tm, tool, unarchive, unstable, unstash, validateDeclarativePipeline, waitForBuild, waitUntil, warnError, withChecks, withContext, withCredentials, withEnv, withGradle, wrap, writeFile, ws] or symbols [GitUsernamePassword, agent, all, allBranchesSame, allOf, always, ant, antFromApache, antOutcome, antTarget, any, anyOf, apiToken, apiTokenProperty, architecture, archiveArtifacts, artifactManager, assembla, authorInChangelog, authorizationMatrix, batchFile, bitbucket, bitbucketServer, booleanParam, branch, brokenBuildSuspects, brokenTestsSuspects, browser, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildSingleRevisionOnly, buildUser, buildingTag, builtInNode, caseInsensitive, caseSensitive, certificate, cgit, changeRequest, changelog, changelogBase, changelogToBranch, changeset, checkoutOption, checkoutToSubdirectory, choice, choiceParam, cleanAfterCheckout, cleanBeforeCheckout, cleanWs, clock, cloneOption, command, computerRetentionCheckInterval, consoleUrlProvider, contributor, cps, credentials, cron, crumb, culprits, dark, darkSystem, default, defaultDisplayUrlProvider, defaultFolderConfiguration, defaultView, demand, developers, disableConcurrentBuilds, disableRestartFromStage, disableResume, discoverOtherRefs, discoverOtherRefsTrait, diskSpace, diskSpaceMonitor, downstream, dumb, durabilityHint, email-ext, envVars, envVarsFilter, environment, equals, experimentalFlags, expression, extendedEmailPublisher, file, fileParam, filePath, fingerprint, fingerprints, firstBuildChangelog, fisheye, frameOptions, freeStyle, freeStyleJob, fromScm, fromSource, git, gitBranchDiscovery, gitHooks, gitHubBranchDiscovery, gitHubBranchHeadAuthority, gitHubExcludeArchivedRepositories, gitHubExcludeForkedRepositories, gitHubExcludePrivateRepositories, gitHubExcludePublicRepositories, gitHubForkDiscovery, gitHubIgnoreDraftPullRequestFilter, gitHubPullRequestDiscovery, gitHubSshCheckout, gitHubTagDiscovery, gitHubTopicsFilter, gitHubTrustContributors, gitHubTrustEveryone, gitHubTrustNobody, gitHubTrustPermissions, gitLab, gitList, gitSCM, gitTagDiscovery, gitTool, gitUsernamePassword, gitWeb, gitblit, github, githubProjectProperty, githubPush, gitiles, gogs, gradle, group, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, ignoreOnPush, inbound, inheriting, inheritingGlobal, installSource, isRestartedRun, jdk, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, junitTestResultStorage, kiln, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, lfs, list, local, localBranch, localBranchTrait, location, logRotator, loggedInUsersCanDoAnything, mailer, masterBuild, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, modernSCM, multiBranchProjectDisplayNaming, multibranch, myView, namedBranchesDifferent, node, nodeProperties, nonInheriting, none, nonresumable, not, organizationFolder, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, perBuildTag, permanent, phabricator, pipeline, pipelineGraphView, pipelineTriggers, plainText, plugin, pollSCM, preserveStashes, previous, projectNamingStrategy, proxy, pruneStaleBranch, pruneStaleTag, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, recipients, redmine, refSpecs, remoteName, requestor, resourceRoot, responseTime, retainOnlyVariables, rhodeCode, run, runParam, sSHLauncher, schedule, scmGit, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, sparseCheckout, sparseCheckoutPaths, ssh, sshUserPrivateKey, standard, status, string, stringParam, submodule, submoduleOption, suppressAutomaticTriggering, suppressFolderAutomaticTriggering, swapSpace, tag, teamFoundation, teamSlugFilter, text, textParam, themeManager, timestamper, timestamperConfig, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, upstreamDevelopers, user, userIdentity, userOrGroup, userSeed, usernameColonPassword, usernamePassword, viewgit, viewsTabBar, weather, withAnt, zip] or globals [currentBuild, env, params, pipeline, scm]
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:218)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:180)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:163)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:178)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:182)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:118)
+	at WorkflowScript.run(WorkflowScript:133)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:139)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:728)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:390)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:727)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2125)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2110)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2151)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:717)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executeSingleStage(ModelInterpreter.groovy:644)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:292)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.toolsBlock(ModelInterpreter.groovy:521)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:280)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:279)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(ModelInterpreter.groovy:464)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:278)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:561)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:276)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:354)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:265)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:592)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:263)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:258)
+	at ___cps.transform___(Native Method)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:90)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:114)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.dispatch(CollectionLiteralBlock.java:55)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.item(CollectionLiteralBlock.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:181)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:437)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:345)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:298)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[8mha:////4GljKli6/VpBa4EMnzkILzcnhJ3jhkcPCtOAzxdzFTSIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wHw9YfNvgAAAA==[0m[Pipeline] }
+[8mha:////4KfDEWRhMLIXTee9lx9iGxvS3WbrJU9U5fbdK2a1SmnyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRVAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHItxQ8vgAAAA==[0m[Pipeline] // stage
+[8mha:////4JpAR8bDhG0lphyImc94ARD8g+DjfsWivyi1cVVtavesAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQEYQtX8wgAAAA==[0m[Pipeline] stage
+[8mha:////4Bty/OFGeHh9598AOKL8KcPI7Vjnzy7B9NZKAmBbkwVhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (Package)
+Stage "Package" skipped due to earlier failure(s)
+[8mha:////4PDmnJCgvvxYVKwnaOIwj+/pzncF0g2ROskIwjuwnDLwAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] getContext
+[8mha:////4IOjX4+9BzGKqdE033R5lbm1iL5bK80X9+CR4Ky5j+k9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bqph/Ve+AAAA[0m[Pipeline] }
+[8mha:////4N0MPU4fUJ+NogmSIErWTrsPI6Cm8kxCjCUM/D1YdNGfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGsJ8UCvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DrdlS4CQgRhs7kwzKC4yp4V7vawD00Dvw8JGgt/xr1eAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSRARBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm2223f7zrN7bshKWwgAAAA==[0m[Pipeline] stage
+[8mha:////4JthN8wdAd4FFK+IVzGLEpH0a1KUKYpPHUsBqv4PUtb2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] { (Deploy Preparation)
+Stage "Deploy Preparation" skipped due to earlier failure(s)
+[8mha:////4KLM0DE4ZmbDkWH3xds/sPnHKnRLrs6Tg2fibL3+Eky3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] getContext
+[8mha:////4EqyLmP0O0yV23E3uk+E4pAmI02/mtTmh9r6OZA2PwxnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAMjehBb4AAAA=[0m[Pipeline] }
+[8mha:////4Cn2Ty4QyVmIk/tYIw45WQwBqfcVEgiWoN28RVJBlru+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDCnUy9L4AAAA=[0m[Pipeline] // stage
+[8mha:////4Ln089mRwYOSu9glcmwbqum7fYPTl82s7vgyfyQwCg5oAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqBILYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsm2bz7P6g2FWD3NwgAAAA==[0m[Pipeline] stage
+[8mha:////4IKt9RysAcN0cNXuXVINkXt71JKLafiiB6rdGkCRhjOwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4IL+ap3e2HeTFxKpB9F5JYNBSfXTtrFMbXrtSqS2fIjPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBlmkmCe+AAAA[0m[Pipeline] echo
+Pipeline execution completed.
+[8mha:////4HjJeUiVVWfSrM0Orho6xg6Y/QFWoU0PLNIm+YWC2Ih2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/Bpr3tQy+AAAA[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Skipped based on build state FAILURE
+[8mha:////4Bk182JQ1m0NE0WtmLr/vnUAaNZ/o1Oy7ecGaYh8nqCNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN9vGrhW+AAAA[0m[Pipeline] echo
+Pipeline failed!
+[8mha:////4GCd/M6JV/yzo4y9UHbys8K53IEXdbv7LvnxwRF4AA47AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAEU2jaSvgAAAA==[0m[Pipeline] emailext
+Sending email to: null
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+[8mha:////4NET71rDILKvnUvdu9UfgThRhgF5DWV3gt8XIQWVAG8eAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEhmm68vgAAAA==[0m[Pipeline] }
+[8mha:////4HQ/wHrX4eDtAgbxOcNlpFRN9zi7mJRu/yDO3xALTdA8AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330A/lVyo74AAAA=[0m[Pipeline] // stage
+[8mha:////4DEbNVaHXIWL0ixEVyUDMjsuvGxvc0SYG8T0KE5SPCLpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiIICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPV+w+cEG8nvgAAAA==[0m[Pipeline] }
+[8mha:////4NYyWY1yX80J+rWjw3OFP49mn5yDg2vM+VHKykODGOX0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda59/QGkUvzWvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NjV2CyeZbuj8RDs9dBKeXf+f/cLQZzCatX3XCjgp47MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiIICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+70KmEvgAAAA==[0m[Pipeline] }
+[8mha:////4BIsqinyg9BPCBFSWJEh5cJtkInUb/QXVMPFZx+SZnu+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEhIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+1234AldCr7r4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4EF3MG53CrpF6emnj2ZAIVm15o5pzefEHlA0QOE/f4w6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsP6Ef8zL0AAAA=[0m[Pipeline] }
+[8mha:////4Flwf8SyNpPapLwu7+uViz8GR/RFNIkQLehWTnl8+FSYAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AJuoOBW9AAAA[0m[Pipeline] // node
+[8mha:////4MV8/f0iLr2QrSk6OQR6AsRulLdtFzXenXz/iKHIc4jCAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkLgzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HvbFfX70AAAA=[0m[Pipeline] End of Pipeline
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: b163b406-b8c3-4a64-9a63-9dad0151d7b7
+java.lang.NoSuchMethodError: No such DSL method 'publishTestResults' found among steps [archive, bat, build, catchError, checkout, deleteDir, dir, echo, emailext, emailextrecipients, envVarsForTool, error, fileExists, findBuildScans, getContext, git, input, isUnix, junit, library, libraryResource, load, mail, milestone, node, parallel, powershell, properties, publishChecks, pwd, pwsh, readFile, readTrusted, resolveScm, retry, script, sh, sleep, stage, stash, step, timeout, timestamps, tm, tool, unarchive, unstable, unstash, validateDeclarativePipeline, waitForBuild, waitUntil, warnError, withChecks, withContext, withCredentials, withEnv, withGradle, wrap, writeFile, ws] or symbols [GitUsernamePassword, agent, all, allBranchesSame, allOf, always, ant, antFromApache, antOutcome, antTarget, any, anyOf, apiToken, apiTokenProperty, architecture, archiveArtifacts, artifactManager, assembla, authorInChangelog, authorizationMatrix, batchFile, bitbucket, bitbucketServer, booleanParam, branch, brokenBuildSuspects, brokenTestsSuspects, browser, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildSingleRevisionOnly, buildUser, buildingTag, builtInNode, caseInsensitive, caseSensitive, certificate, cgit, changeRequest, changelog, changelogBase, changelogToBranch, changeset, checkoutOption, checkoutToSubdirectory, choice, choiceParam, cleanAfterCheckout, cleanBeforeCheckout, cleanWs, clock, cloneOption, command, computerRetentionCheckInterval, consoleUrlProvider, contributor, cps, credentials, cron, crumb, culprits, dark, darkSystem, default, defaultDisplayUrlProvider, defaultFolderConfiguration, defaultView, demand, developers, disableConcurrentBuilds, disableRestartFromStage, disableResume, discoverOtherRefs, discoverOtherRefsTrait, diskSpace, diskSpaceMonitor, downstream, dumb, durabilityHint, email-ext, envVars, envVarsFilter, environment, equals, experimentalFlags, expression, extendedEmailPublisher, file, fileParam, filePath, fingerprint, fingerprints, firstBuildChangelog, fisheye, frameOptions, freeStyle, freeStyleJob, fromScm, fromSource, git, gitBranchDiscovery, gitHooks, gitHubBranchDiscovery, gitHubBranchHeadAuthority, gitHubExcludeArchivedRepositories, gitHubExcludeForkedRepositories, gitHubExcludePrivateRepositories, gitHubExcludePublicRepositories, gitHubForkDiscovery, gitHubIgnoreDraftPullRequestFilter, gitHubPullRequestDiscovery, gitHubSshCheckout, gitHubTagDiscovery, gitHubTopicsFilter, gitHubTrustContributors, gitHubTrustEveryone, gitHubTrustNobody, gitHubTrustPermissions, gitLab, gitList, gitSCM, gitTagDiscovery, gitTool, gitUsernamePassword, gitWeb, gitblit, github, githubProjectProperty, githubPush, gitiles, gogs, gradle, group, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, ignoreOnPush, inbound, inheriting, inheritingGlobal, installSource, isRestartedRun, jdk, jgit, jgitapache, jnlp, jobBuildDiscarder, jobName, junitTestResultStorage, kiln, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, lfs, list, local, localBranch, localBranchTrait, location, logRotator, loggedInUsersCanDoAnything, mailer, masterBuild, maven, maven3Mojos, mavenErrors, mavenGlobalConfig, mavenMojos, mavenWarnings, modernSCM, multiBranchProjectDisplayNaming, multibranch, myView, namedBranchesDifferent, node, nodeProperties, nonInheriting, none, nonresumable, not, organizationFolder, overrideIndexTriggers, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, perBuildTag, permanent, phabricator, pipeline, pipelineGraphView, pipelineTriggers, plainText, plugin, pollSCM, preserveStashes, previous, projectNamingStrategy, proxy, pruneStaleBranch, pruneStaleTag, pruneTags, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, recipients, redmine, refSpecs, remoteName, requestor, resourceRoot, responseTime, retainOnlyVariables, rhodeCode, run, runParam, sSHLauncher, schedule, scmGit, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simpleBuildDiscarder, skipDefaultCheckout, skipStagesAfterUnstable, slave, sourceRegexFilter, sourceWildcardFilter, sparseCheckout, sparseCheckoutPaths, ssh, sshUserPrivateKey, standard, status, string, stringParam, submodule, submoduleOption, suppressAutomaticTriggering, suppressFolderAutomaticTriggering, swapSpace, tag, teamFoundation, teamSlugFilter, text, textParam, themeManager, timestamper, timestamperConfig, timezone, tmpSpace, toolLocation, triggeredBy, unsecured, untrusted, upstream, upstreamDevelopers, user, userIdentity, userOrGroup, userSeed, usernameColonPassword, usernamePassword, viewgit, viewsTabBar, weather, withAnt, zip] or globals [currentBuild, env, params, pipeline, scm]
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:218)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:180)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:163)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:178)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:182)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:118)
+	at WorkflowScript.run(WorkflowScript:133)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:139)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:728)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:390)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:727)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2125)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2110)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2151)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:717)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executeSingleStage(ModelInterpreter.groovy:644)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:292)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.toolsBlock(ModelInterpreter.groovy:521)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:280)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:279)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(ModelInterpreter.groovy:464)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:278)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(ModelInterpreter.groovy:561)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:276)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.stageInput(ModelInterpreter.groovy:354)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:265)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inWrappers(ModelInterpreter.groovy:592)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:263)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(ModelInterpreter.groovy:432)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(ModelInterpreter.groovy:258)
+	at ___cps.transform___(Native Method)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:90)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:114)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.dispatch(CollectionLiteralBlock.java:55)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.CollectionLiteralBlock$ContinuationImpl.item(CollectionLiteralBlock.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:181)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:437)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:345)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:298)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Finished: FAILURE

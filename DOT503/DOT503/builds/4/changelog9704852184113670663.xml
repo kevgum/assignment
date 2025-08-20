@@ -1,0 +1,10 @@
+commit 85cd975062741e75bcc817f0a6525c4c392a4420
+tree 9df79e35f0dcc03b49097ebe7fda3daf4f3219d7
+parent ffed72f364bc20450e8302da0f97b339bab10ea0
+author kevgum <vekosocial@gmail.com> 2025-08-12 17:49:31 +0300
+committer kevgum <vekosocial@gmail.com> 2025-08-12 17:49:31 +0300
+
+    Fix test results publishing in Jenkinsfile
+
+
+:100644 100644 311a2bca9768d94aba63fcaded7f506a1e00bf14 e273439836e20ec4cacd4bb59c76506ec7a9f6ae M	Jenkinsfile

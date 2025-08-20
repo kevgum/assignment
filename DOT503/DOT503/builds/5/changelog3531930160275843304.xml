@@ -1,0 +1,9 @@
+commit 9ee14ec97ecdc6e2f04298a8ee4d4e53b3ba11b5
+tree f931a0e8cda6f672429ddc88ee8953056ec84673
+parent 85cd975062741e75bcc817f0a6525c4c392a4420
+author kevgum <vekosocial@gmail.com> 2025-08-12 17:55:25 +0300
+committer GitHub <noreply@github.com> 2025-08-12 17:55:25 +0300
+
+    Update ci-cd-pipeline.yml
+
+:100644 100644 88fe344de4f19a214606d4aa944da6f08a86abfd 2ab32a5f82a36e96bd677906ea56ac15328632b0 M	.github/workflows/ci-cd-pipeline.yml
